@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/jpeg" href="myPicture.jpg">
+    <link rel="stylesheet" href="style.css">
+    <title>Sphiwe Khubayi-Portfolio</title>
+</head>
+<body>
+   <header class="header">
+    <div class="container">
+        <div class="logo-text">
+            <h1><i class="fas fa-code"></i><span style="color: rebeccapurple; font-size: 1.9rem;"> Sphiwe Khubayi </span><i class="fas fa-code"></i></h1>
+        </div>
+
+        <div class="nav-bar">
+            <nav>
+                <a href="#home" class="active"><i class="fas fa-home"></i> Home</a>
+                <a href="#skills"><i class="fas fa-code"></i> Skills</a>
+                <a href=""><i class="fas fa-school"></i> Education</a>
+                <a href=""><i class="fas fa-file-code"></i> Projects</a>
+                <a href=""><i class="fas fa-phone"></i> Contacts</a>
+            </nav>
+        </div>
+    </div>
+   </header>
+
+   <!-- Hero Section -->
+    <div class="info">
+        <h1>Hi there It's me <span>Sphiwe</span></h1>
+        <h3>I'm a <span class="multiple-text"></span></h3>
+      <section class="hero-section" id="home">        
+        <p id="info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, placeat accusamus quibusdam reiciendis doloribus corporis 
+            dolore maxime dicta aspernatur ratione eveniet ullam officiis, suscipit repellat pariatur veniam error facere tempore.</p>
+
+        <img src="myPicture-removebg-preview.png">
+      </section>
+    </div>
+    <!-- <div class="hero-image">
+        <img src="myPicture-removebg-preview.png">
+    </div> -->
+
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+   <script>
+    var typed = new Typed(".multiple-text", {
+        strings: ["Fronted Developer", "Tutor", "Student"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+    })
+   </script>
+   <script src="main.js"></script>
+</body>
+</html>
